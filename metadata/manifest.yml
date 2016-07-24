@@ -2,19 +2,19 @@
 Name: maintenance_page
 Cartridge-Short-Name: MAINTENANCE_PAGE
 Architecture: x86_64
-Display-Name: Maintenance Page 1.0
+Display-Name: Maintenance Page 1.1
 Description: Maintenance page during your app deploys
-Version: '1.0'
+Version: '1.1'
 Versions:
-- '1.0'
-Cartridge-Version: 0.0.1
-Cartridge-Vendor: startapp
+- '1.1'
+Cartridge-Version: 0.0.2
+Cartridge-Vendor: webuildsg
 License: GPL
-Vendor: www.startapp.bg
+Vendor: http://www.webuild.sg
 Categories:
 - service
 - embedded
-Website: http://www.startapp.bg
+Website: http://www.webuild.sg
 Provides:
 - maintenance_page
 Scaling:
@@ -25,4 +25,4 @@ Group-Overrides:
   - maintenance_page
   - web_proxy
 
-Source-Url: https://github.com/mignev/openshift-cartridge-maintenance-page.git
+Source-Url: https://github.com/webuildsg/openshift-cartridge-maintenance-page.git
